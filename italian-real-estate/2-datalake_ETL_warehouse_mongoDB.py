@@ -1,4 +1,4 @@
-"""
+'''
 Filename: datalake_ETL_warehouse_mongoDB.py
 Author: Leonardo Pacciani-Mori
 
@@ -20,7 +20,7 @@ Disclaimer:
 License:
     This code is released under the GNU General Public License v3.
     See https://www.gnu.org/licenses/gpl-3.0.en.html for details.
-"""
+'''
 
 # -------------------------------------------------------------------------------
 # --------------LIBRARY IMPORTS AND GLOBAL VARIABLES DEFINITION------------------
@@ -1016,7 +1016,7 @@ def get_warehouse_stats():
     total_documents = sum(collection_counts.values())
     
     # Generates statistics report
-    stats_msg = f"""
+    stats_msg = f'''
                 MongoDB data warehouse statistics:
                 -------------------------
                 Total records: {total_documents}
@@ -1024,7 +1024,7 @@ def get_warehouse_stats():
                 - Sale: {collection_counts['sale']} records
                 - Rent: {collection_counts['rent']} records
                 - Auction: {collection_counts['auction']} records
-                    """
+                    '''
     
     logger.info(stats_msg)
     

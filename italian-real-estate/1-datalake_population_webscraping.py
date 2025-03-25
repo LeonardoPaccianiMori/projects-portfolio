@@ -1,4 +1,4 @@
-"""
+'''
 Filename: datalake_population_webscraping.py
 Author: Leonardo Pacciani-Mori
 
@@ -20,7 +20,7 @@ Disclaimer:
 License:
     This code is released under the GNU General Public License v3.
     See https://www.gnu.org/licenses/gpl-3.0.en.html for details.
-"""
+'''
 
 # -------------------------------------------------------------------------------
 # --------------LIBRARY IMPORTS AND GLOBAL VARIABLES DEFINITION------------------
